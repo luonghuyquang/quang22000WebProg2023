@@ -14,7 +14,7 @@
 <h3>3.1. Write a simple PHP script to print your information (Name and your groupid).</h3>
 <?php
 echo "Quang Luong <br>";
-echo "CA2022<br>";
+echo "BBCAP22A aka BBCA22A<br>";
 ?>
 <h3>3.2 Write PHP code to display the following message.</h3>
 <?php
