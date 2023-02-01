@@ -3,9 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <meta content="This page is about a Restaurant called Amarillo that is located in Helsinki city">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reservation AMARILLO</title>
+  <meta name="description" content="<?php if(isset($metaD) && !empty($metaD)) { echo $metaD; } else { echo "Some meta description"; } ?>" /> 
+  <title><?php if(isset($title) && !empty($title)) { echo $title; } else { echo "Default title tag"; } ?></title>
   <!--Bootstrap CSS code-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">

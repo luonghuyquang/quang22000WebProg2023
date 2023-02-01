@@ -9,7 +9,7 @@
 </head>
 <body>
 -->
-<?php include 'layoutFor230201Assignment/header.php' ?>
+<?php $title = "qex1 customized title with variable"; include 'layoutFor230201Assignment/header.php' ?>
 
 <h3>3.1. Write a simple PHP script to print your information (Name and your groupid).</h3>
 <?php
