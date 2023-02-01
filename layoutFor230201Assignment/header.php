@@ -55,7 +55,7 @@
     <header>
       <nav class="navbar navbar-expand-sm">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><image class="logo11" src="layoutFor230201Assignment/logo1.png"></a>
+          <a class="navbar-brand" href="qex1.php"><image class="logo11" src="layoutFor230201Assignment/logo1.png"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -63,19 +63,19 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
               <li class="nav-item">
-                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link active" href="qex1.php">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="menu.html">Menu</a>
+                <a class="nav-link" href="qex1.php">Menu</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="reservation.html">Reservation</a>
+                <a class="nav-link" href="qex1.php">Reservation</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#CU">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="qex1.php">About</a>
               </li>
             </ul>
           </div>
