@@ -9,7 +9,7 @@
 </head>
 <body>
 -->
-<?php include 'quang22000Layout/header.php' ?>
+<?php include 'layoutFor230201Assignment/header.php' ?>
 
 <h3>3.1. Write a simple PHP script to print your information (Name and your groupid).</h3>
 <?php
@@ -63,4 +63,4 @@ echo "
 </html>
 -->
 
-<?php include 'quang22000Layout/footer.php' ?>
+<?php include 'layoutFor230201Assignment/footer.php' ?>
