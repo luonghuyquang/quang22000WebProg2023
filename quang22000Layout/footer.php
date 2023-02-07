@@ -4,8 +4,13 @@
 <footer style="background-color: rgb(65, 7, 109); color: white;">
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2020 Copyright
-  </div>
+  <div class="footer-copyright text-center py-3">© 2023 Copyright Quang Luong @HAMK <br>
+  <?php
+    $filename = $_SERVER['SCRIPT_FILENAME'];
+    if (file_exists($filename)) {
+    echo "This site was last modified: " . date ("F d Y H:i:s.", filemtime($filename));}
+  ?>
+</div>
   <!-- Copyright -->
 
 </footer></div>

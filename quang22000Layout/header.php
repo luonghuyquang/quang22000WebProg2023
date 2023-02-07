@@ -28,13 +28,13 @@
           <a class="nav-link" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Excercise 1</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link1</a>
+          <a class="nav-link" href="#">Excercise 2</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link2</a>
+          <a class="nav-link" href="#">Excercise 3</a>
         </li>
         
       </ul>
@@ -49,6 +49,6 @@
   <div class="row" style="margin-top: 10px; margin-bottom: 10px; margin-right: 5px;">
     <div class="col-sm-3" style="background-color: rgba(228, 235, 194, 0.353);">
       <h3>List of Tasks</h3>
-      some thing here
+      We can add new links here
     </div>
     <div class="col-sm-9">
