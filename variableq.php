@@ -81,17 +81,15 @@ echo "<h2>$sum</h2>";
 <h3>6. Write a PHP script to detect the browser being used to view your pages. (Use predefined variables: $_SERVER).</h3>
 
 <?php
-echo $_SERVER['HTTP_USER_AGENT'] . "\n\n";
-$browser = get_browser(null, true);
-print_r($browser);
+echo $_SERVER['HTTP_USER_AGENT'];
+
 ?>
 <br>
 <h3>7. Write a PHP script in the footer section of your universal footer just below the Copyright information to display the last modification time of a file. (Hint: Use predefined variable $_SERVER, basename function  to get the filename , filetime function to get the last modified time & date function to print the date and time)</h3>
 <p>This is found in "quang22000Layout/footer.php". The code is also copied here for learning purpose.</p>
   <?php
-    $filename = $_SERVER['SCRIPT_FILENAME'];
-    if (file_exists($filename)) {
-    echo "This site was last modified: " . date ("F d Y H:i:s.", filemtime($filename));}
+    $filename = basename($_SERVER['PHP_SELF']);
+    echo "This site was last modified on: " . date ('l jS \o\f F Y, h:i:s A', filemtime($filename));
   ?>
 <br><br>
 <h3>8. Commit all changes and push all changes you have done to your GitHub repository. The task is then completed. </h3>

@@ -6,9 +6,8 @@
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2023 Copyright Quang Luong @HAMK <br>
   <?php
-    $filename = $_SERVER['SCRIPT_FILENAME'];
-    if (file_exists($filename)) {
-    echo "This site was last modified: " . date ("F d Y H:i:s.", filemtime($filename));}
+   $filename = basename($_SERVER['PHP_SELF']);
+   echo "This site was last modified on: " . date ('l jS \o\f F Y, h:i:s A', filemtime($filename));
   ?>
 </div>
   <!-- Copyright -->
