@@ -48,11 +48,11 @@
   <div class="row" style="margin-top: 10px; margin-bottom: 10px; margin-right: 5px;">
     <div class="col-sm-3" style="background-color: rgba(228, 235, 194, 0.353);">
       <h3>List of Tasks</h3>
-      <a href="qex1.php">31.01.2023 (ex1.php)</a><br>
-      <a href="index.php">01.02.2023 (index.php, header and footer)</a><br>
-      <a href="variableq.php">07.02.2023 (variable.php)</a><br>
-      <a href="controlflow.php">08.02.2023 (controlflow.php)</a><br>
-      <a href="array_calculator.php">09.02.2023 (array_calculator.php)</a><br>
-      <a href="array.php">09.02.2023 (array.php)</a><br>
+      <a class="btn btn-success" href="qex1.php">31.01.2023 (ex1.php)</a><br><br>
+      <a class="btn btn-success" href="index.php">01.02.2023 (index.php)</a><br><br>
+      <a class="btn btn-success" href="variableq.php">07.02.2023 (variable.php)</a><br><br>
+      <a class="btn btn-success" href="controlflow.php">08.02.2023 (controlflow.php)</a><br><br>
+      <a class="btn btn-success" href="array_calculator.php">09.02.2023 (array_calculator.php)</a><br><br>
+      <a class="btn btn-success" href="array.php">09.02.2023 (array.php)</a><br>
     </div>
     <div class="col-sm-9">

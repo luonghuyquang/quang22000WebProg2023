@@ -45,6 +45,6 @@ echo "
 ?>
 
 <h3> 4. Screenshot of the development environment .</h3>
-<img src="images/20230201.Docker.screenshot.png" alt="20230201.Docker.screenshot">
+<img src="images/20230201.Docker.screenshot.png" alt="20230201.Docker.screenshot" style="max-width: 100%;">
 
 <?php include "quang22000Layout/footer.php" ?>
