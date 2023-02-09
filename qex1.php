@@ -1,16 +1,5 @@
-<!--
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
--->
-<?php $title = "qex1 customized title with variable"; include 'layoutFor230201Assignment/header.php' ?>
-
+<?php $title = "31.01.2023 in class task"; include "quang22000Layout/header.php" ?>
+<h1>31.01.2023 (ex1.php)</h1>
 <h3>3.1. Write a simple PHP script to print your information (Name and your groupid).</h3>
 <?php
 echo "Quang Luong <br>";
@@ -58,9 +47,4 @@ echo "
 <h3> 4. Screenshot of the development environment .</h3>
 <img src="images/20230201.Docker.screenshot.png" alt="20230201.Docker.screenshot">
 
-<!--
-</body>
-</html>
--->
-
-<?php include 'layoutFor230201Assignment/footer.php' ?>
+<?php include "quang22000Layout/footer.php" ?>

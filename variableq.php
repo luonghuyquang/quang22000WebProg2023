@@ -1,5 +1,5 @@
-<?php include "quang22000Layout/header.php" ?>
-<h1>Excercise 3 In class task </h1>
+<?php $title = "07.02.2023 variable"; include "quang22000Layout/header.php"?>
+<h1>07.02.2023 (variable.php) Excercise 3 In class task </h1>
 <br>
 <h3>1. Create a simple html form to get Firstname and Lastname from the user and use echo echo statement to print using tag: <br>
 Hello …., You are welcome to my site.</h3>

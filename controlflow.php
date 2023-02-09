@@ -1,6 +1,5 @@
-<?php include "quang22000Layout/header.php" ?>
+<?php $title = "08.02.2023 control flow"; include "quang22000Layout/header.php" ?>
 <h1>08.02.2023 in class exercise</h1>
-
 <h4>1. Write a script that gets the current month and prints one of the following responses, depending on whether it's August or not:
 It's August, so it's still holiday.
 Not August, this is Month-name so I don't have any holidays
