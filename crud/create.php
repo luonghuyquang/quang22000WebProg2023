@@ -28,7 +28,7 @@ include '../quang22000Layout/header.php';
       echo "Your information is added successfully";
     }
     else {
-      echo "Error: ". $conn->error;
+      echo "Error: ".$conn->error;
     }
   }
 ?>
