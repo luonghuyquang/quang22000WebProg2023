@@ -2,7 +2,7 @@
 $title = "A simple CRUD app";
 include '../quang22000Layout/header.php';
 ?>
-<h1>10.02.2023 (CRUD APP)</h1>
+<h1>10.02.2023 (CRUD APP)<br><br></h1>
 <form method="post" action = "">
   <input type="text" name="fname" placeholder="First Name" required><br><br>
   <input type="text" name="lname" placeholder="Last Name" required><br><br>
