@@ -56,6 +56,6 @@
       <a class="btn btn-success" href="/quang22000WebProg2023/array.php">09.02.2023 (array.php)</a><br><br>
       <a class="btn btn-success" href="/quang22000WebProg2023/crud/create.php">10.02.2023 (CRUD APP)</a><br><br>
       <a class="btn btn-primary" href="https://github.com/luonghuyquang/team11WebProg" target="blank">10.02.2023 (Team 11 project)</a><br><br>
-      <a href="testcode.php">Testing Area</a>
+      <a class="btn btn-secondary" href="/quang22000WebProg2023/testcode.php">Testing Area</a>
     </div>
     <div class="col-sm-9">
