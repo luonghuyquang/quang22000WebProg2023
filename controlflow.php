@@ -101,7 +101,7 @@ switch($user_agent)
   break;
   case (stripos($user_agent, 'Chrome')==true): echo 'You are using Google Chrome';
   break;
-  case (stripos($user_agent, 'Mozilla')==true): echo 'Mozilla Firefox';
+  case (stripos($user_agent, 'Firefox')==true): echo 'Mozilla Firefox';
   break;
   case (stripos($user_agent, 'Safari')==true): echo 'Apple Safari';
   break;
