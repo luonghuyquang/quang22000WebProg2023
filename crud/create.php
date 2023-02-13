@@ -1,6 +1,6 @@
 <?php
 $title = "A simple CRUD app";
-include '../quang22000Layout/header.php';
+include '../quang22000layout/header.php';
 ?>
 <h1>10.02.2023 (CRUD APP)<br><br></h1>
 <form method="post" action = "">

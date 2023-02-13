@@ -11,7 +11,7 @@
     integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous">
 
     <!--local css-->
-  <link rel="stylesheet" href="/quang22000webprog2023/quang22000layout/style.css">
+  <link rel="stylesheet" href="../quang22000webprog2023/quang22000layout/style.css">
 </head>
 <body>
   <div class="container" >
@@ -48,14 +48,14 @@
   <div class="row" style="margin-top: 10px; margin-bottom: 10px; margin-right: 5px;">
     <div class="col-sm-3" style="background-color: rgba(228, 235, 194, 0.353);">
       <h3>List of Tasks</h3>
-      <a class="btn btn-success" href="/quang22000webprog2023/qex1.php">31.01.2023 (ex1.php)</a><br><br>
-      <a class="btn btn-success" href="/quang22000webprog2023/index.php">01.02.2023 (index.php)</a><br><br>
-      <a class="btn btn-success" href="/quang22000webprog2023/variableq.php">07.02.2023 (variable.php)</a><br><br>
-      <a class="btn btn-success" href="/quang22000webprog2023/controlflow.php">08.02.2023 (controlflow.php)</a><br><br>
-      <a class="btn btn-success" href="/quang22000webprog2023/array_calculator.php">09.02.2023 (array_calculator.php)</a><br><br>
-      <a class="btn btn-success" href="/quang22000webprog2023/array.php">09.02.2023 (array.php)</a><br><br>
-      <a class="btn btn-success" href="/quang22000webprog2023/crud/create.php">10.02.2023 (CRUD APP)</a><br><br>
-      <a class="btn btn-primary" href="https://github.com/luonghuyquang/team11WebProg" target="blank">10.02.2023 (Team 11 project)</a><br><br>
-      <a class="btn btn-secondary" href="/quang22000webprog2023/testcode.php">Testing Area</a>
+      <a class="btn btn-success" href="../quang22000webprog2023/qex1.php">31.01.2023 (ex1.php)</a><br><br>
+      <a class="btn btn-success" href="../quang22000webprog2023/index.php">01.02.2023 (index.php)</a><br><br>
+      <a class="btn btn-success" href="../quang22000webprog2023/variableq.php">07.02.2023 (variable.php)</a><br><br>
+      <a class="btn btn-success" href="../quang22000webprog2023/controlflow.php">08.02.2023 (controlflow.php)</a><br><br>
+      <a class="btn btn-success" href="../quang22000webprog2023/array_calculator.php">09.02.2023 (array_calculator.php)</a><br><br>
+      <a class="btn btn-success" href="../quang22000webprog2023/array.php">09.02.2023 (array.php)</a><br><br>
+      <a class="btn btn-warning" href="../crud/create.php">10.02.2023 (CRUD APP)</a><br><br>
+      <a class="btn btn-primary" href="https://github.com/luonghuyquang/team11webprog" target="blank">10.02.2023 (Team 11 project)</a><br><br>
+      <a class="btn btn-secondary" href="../quang22000webprog2023/testcode.php">Testing Area</a>
     </div>
     <div class="col-sm-9">
