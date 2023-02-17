@@ -1,5 +1,51 @@
 <?php $title = "not an assignment"; include "quang22000Layout/header.php"?>
 <h3>This is not an assignment, this is to test codes</h3>
+<h4>
+<br>
+$_SERVER['PHP_SELF'] -->
+<?php echo $_SERVER['PHP_SELF'];?>
+<br>
+<br>
+dirname($_SERVER['PHP_SELF']) -->
+<?php echo dirname($_SERVER['PHP_SELF']);?>
+<br>
+<br>
+dirname($_SERVER['PHP_SELF']) . '/../../ --> 
+<?php echo dirname($_SERVER['PHP_SELF']) . '/../../'?>
+<br>
+<br>
+$_SERVER['DOCUMENT_ROOT']  -->
+<?php echo $_SERVER['DOCUMENT_ROOT']; ?>
+<br>
+<br>
+dirname(__FILE__)  -->
+<?php echo dirname(__FILE__); ?>
+<br>
+<br>
+str_replace($_SERVER['DOCUMENT_ROOT'], '', dirname(__FILE__))'/filename';  -->
+<?php echo str_replace($_SERVER['DOCUMENT_ROOT'], '', dirname(__FILE__)) . '/filename'; ?>
+<br>
+<br>
+dirname($_SERVER['PHP_SELF']) . '/../../2/qex1.php'-->
+<?php echo dirname($_SERVER['PHP_SELF']) . '/../../2/qex1.php' ?>
+<br>
+<br>
+dirname($_SERVER['PHP_SELF']) . '/../../2/crud/create.php'-->
+<?php echo dirname($_SERVER['PHP_SELF']) . '/../../2/crud/create.php' ?>
+<br><br>
+<?= dirname($_SERVER['PHP_SELF']) ?>
+<br><br>
+<?=dirname($_SERVER['SCRIPT_FILENAME'])?>
+<br><br>
+<?php $fromRoot = substr_count(dirname($_SERVER['PHP_SELF']),'/');
+echo $fromRoot;
+?>
+<br><br>
+<?php $fromRoot = substr_count(dirname($_SERVER['PHP_SELF']),'/')-1;
+$relativeLink = str_repeat('../', $fromRoot) . 'folderIfAny/file';
+echo $relativeLink;
+?>
+</h4>
 <form action="" method="post">
 <div class="row"> <!--adding Bootstrap style-->
   <div class="col"> <!--adding Bootstrap style-->
