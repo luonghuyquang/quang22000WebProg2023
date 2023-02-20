@@ -33,6 +33,10 @@
       document.documentElement.scrollTop = 0;
     }
   </script>
+  <!--20.02.2023-->
+  <script src = "<?php echo $relativeLink.'javascript/site.js'?>">
+
+  </script>
 </head>
 <body>
     <button onclick="topFunction()" id="quangBtn" title="Go to top"><i class="fa fa-caret-square-o-up"
@@ -77,6 +81,7 @@
       <a class="btn btn-success" href="<?php echo $relativeLink.'controlflow.php'?>">08.02.2023 (controlflow.php)</a><br><br>
       <a class="btn btn-success" href="<?php echo $relativeLink.'array_calculator.php'?>">09.02.2023 (array_calculator.php)</a><br><br>
       <a class="btn btn-success" href="<?php echo $relativeLink.'array.php'?>">09.02.2023 (array.php)</a><br><br>
+      <a class="btn btn-success" href="<?php echo $relativeLink.'javascript.php'?>">20.02.2023 (javascript.php)</a><br><br>
       <h4>A simple CRUD app</h4>
       <a class="btn btn-warning" href="<?php echo $relativeLink.'crud/create.php'?>">10.02.2023 Create (create.php)</a><br><br>
       <a class="btn btn-warning" href="<?php echo $relativeLink.'crud/read.php'?>">14.02.2023 Retrieve (read.php)</a><br><br>
