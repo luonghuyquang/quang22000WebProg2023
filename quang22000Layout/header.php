@@ -82,10 +82,12 @@
       <a class="btn btn-success" href="<?php echo $relativeLink.'array_calculator.php'?>">09.02.2023 (array_calculator.php)</a><br><br>
       <a class="btn btn-success" href="<?php echo $relativeLink.'array.php'?>">09.02.2023 (array.php)</a><br><br>
       <a class="btn btn-success" href="<?php echo $relativeLink.'javascript.php'?>">20.02.2023 (javascript.php)</a><br><br>
+      <a class="btn btn-success" href="<?php echo $relativeLink.'javascript2.php'?>">22.02.2023 (javascript2.php)</a><br><br>
       <h4>A simple CRUD app</h4>
       <a class="btn btn-warning" href="<?php echo $relativeLink.'crud/create.php'?>">10.02.2023 Create (create.php)</a><br><br>
       <a class="btn btn-warning" href="<?php echo $relativeLink.'crud/read.php'?>">14.02.2023 Retrieve (read.php)</a><br><br>
       <a class="btn btn-warning" href="<?php echo $relativeLink.'crud/updatesingle.php'?>">14.02.2023 Update or Delete (updatesingle.php)</a><br><br>
+      <a class="btn btn-warning" href="<?php echo $relativeLink.'crud/create2.php'?>">22.02.2023 Create 2 (create2.php)</a><br><br>
       <h4>Team project</h4>
       <a class="btn btn-primary" href="https://github.com/luonghuyquang/team11webprog" target="blank">10.02.2023 (Team 11 project)</a><br><br>
       <h4>Testing area</h4>

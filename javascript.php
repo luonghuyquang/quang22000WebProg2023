@@ -1,4 +1,4 @@
-<?php $title = "31.01.2023 in class task"; include "quang22000Layout/header.php" ?>
+<?php $title = "20.02.2023 Javascript"; include "quang22000Layout/header.php" ?>
 <h1>20.02.2023 Java script (javascript.php)</h1>
 <!--semicolon ; are optional if codes in different lines. But recommended to use consistently-->
 <script>
@@ -31,7 +31,8 @@ document.write("Hello world, this is Java Script");
 
 <h3>Changing background color</h3>
 <form action="">
-<input type="color" name = "background" onchange="changeColor('background', this.value)">
+<input type="color" name = "background" onchange="changeColor('qbgrd1', this.value)">
 </form>
+
 
 <?php include "quang22000Layout/footer.php" ?>
