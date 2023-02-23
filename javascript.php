@@ -1,4 +1,4 @@
-<?php $title = "20.02.2023 Javascript"; include "quang22000Layout/header.php" ?>
+<?php $title = "20.02.2023 Javascript"; include "quang22000layout/header.php" ?>
 <h1>20.02.2023 Java script (javascript.php)</h1>
 <!--semicolon ; are optional if codes in different lines. But recommended to use consistently-->
 <script>
@@ -35,4 +35,4 @@ document.write("Hello world, this is Java Script");
 </form>
 
 
-<?php include "quang22000Layout/footer.php" ?>
+<?php include "quang22000layout/footer.php" ?>

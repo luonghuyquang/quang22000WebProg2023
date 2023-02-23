@@ -1,4 +1,4 @@
-<?php $title = "not an assignment"; include "quang22000Layout/header.php"?>
+<?php $title = "not an assignment"; include "quang22000layout/header.php"?>
 <h3>This is not an assignment, this is to test codes</h3>
 <h4>
 <br>
@@ -166,4 +166,4 @@ if (isset($result)){
 ?>
 <h3>How to activate the calculation right after selecting the operator [bypass the Calculate button]?</h3>
  
-<?php include 'quang22000Layout/footer.php' ?>
+<?php include 'quang22000layout/footer.php' ?>

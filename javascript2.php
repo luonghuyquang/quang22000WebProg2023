@@ -1,4 +1,4 @@
-<?php $title = "22.02.2023 Javascript"; include "quang22000Layout/header.php" ?>
+<?php $title = "22.02.2023 Javascript"; include "quang22000layout/header.php" ?>
 <h1>22.02.2023 Java script 2nd session (javascript2.php) <br>
 JavaScript Events and form validation</h1>
 
@@ -17,18 +17,18 @@ else {document.write("not<18")};
 <button onclick="this.innerHTML=Date()">Click to know date</button>
 <br><br>
 
+<h4>Make a button and a place holder as paragraph for the date</h4>
+<!--onblur not working here-->
+<button onclick="getElementById('jour').innerHTML=Date()">Click to know date 2</button>
+<p id="jour"></p>
+<br>
+
 <!--copy from javascrip 1 for control-->
 <h3>Changing background color - this is to control that site.js is linked</h3>
 <form action="">
 <input type="color" name = "background" onchange="changeColor('qbgrd1', this.value)">
 </form>
-<br><br>
-
-<h4>Make a button and a place holder as paragraph for the date</h4>
-<!--onblur not working here-->
-<button onclick="getElementById('jour').innerHTML=Date()">Click to know date 2</button>
-<p id="jour"></p>
-<br><br>
+<br>
 
 <h4>Change the background color -  debugged by removing .apply in site.js</h4>
 <form>
@@ -67,4 +67,4 @@ else {document.write("not<18")};
 <input type="color" name = "background" onchange="changeColor('qbgrd1', this.value)">
 </form>
 
-<?php include "quang22000Layout/footer.php" ?>
+<?php include "quang22000layout/footer.php" ?>

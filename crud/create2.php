@@ -10,7 +10,7 @@ include '../quang22000layout/header.php';
 <br><br>
 <!--new-->
 <h1>22.02.2023 (Validation)<br><br></h1>
-<form method="post" action = "" onsubmit="return fname5()" name="form1">
+<form method="post" action = "" onsubmit="return crudvalid2()" name="form1">
   <input type="text" name="fname" placeholder="First Name" required><br><br>
   <input type="text" name="lname" placeholder="Last Name" required><br><br>
   <input type="text" name="city" placeholder="City" required><br><br>
@@ -40,5 +40,5 @@ include '../quang22000layout/header.php';
   }
 ?>
 <?php 
-include '../quang22000Layout/footer.php';
+include '../quang22000layout/footer.php';
 ?>

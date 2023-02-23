@@ -1,4 +1,4 @@
-<?php $title = "09.02.0223 calculator"; include "quang22000Layout/header.php" ?>
+<?php $title = "09.02.0223 calculator"; include "quang22000layout/header.php" ?>
 <h1>09.02.2023 in class exercise</h1>
 
 <form action="" method="get">
@@ -43,4 +43,4 @@ if (isset($result)){
 ?>
 <h3>How to activate the calculation right after selecting the operator [bypass the Calculate button]?</h3>
 
-<?php include "quang22000Layout/footer.php" ?>
+<?php include "quang22000layout/footer.php" ?>

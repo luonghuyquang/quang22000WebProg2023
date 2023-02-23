@@ -30,15 +30,12 @@ function changeColor2(){
 
 // crud validation 2
 // // to ensure name cannot be more than 5 characters
-function fname5(){
+function crudvalid2(){
     let fname = (document.form1.fname.value).trim();
     if(fname.length<5){
         alert("First Name must have at least 5 characters");
         return false;
     }
 }
-
-
-
 
 // crud validation 2

@@ -22,6 +22,7 @@ include '../quang22000layout/header.php';
     $city = $_POST['city'];
     $groupid = $_POST['groupid'];
     include 'db.php';
+    //ATTN to Capitalize keywords
     $sql = "insert into studentinfo(fname, lname, city, groupid)
     values ('$fname', '$lname', '$city', '$groupid')";
     if ($conn ->query($sql) === true) {
@@ -33,5 +34,5 @@ include '../quang22000layout/header.php';
   }
 ?>
 <?php 
-include '../quang22000Layout/footer.php';
+include '../quang22000layout/footer.php';
 ?>

@@ -75,6 +75,7 @@
   <div class="row" style="margin-top: 10px; margin-bottom: 10px; margin-right: 5px;">
     <div class="col-sm-3" style="background-color: rgba(228, 235, 194, 0.353);">
       <h4>List of Tasks</h4>
+      <a class="btn btn-success" href="<?php echo $relativeLink.'resto/reserve.php'?>">Resto Reservation</a><br><br>
       <a class="btn btn-success" href="<?php echo $relativeLink.'qex1.php'?>">31.01.2023 (ex1.php)</a><br><br>
       <a class="btn btn-success" href="<?php echo $relativeLink.'index.php'?>">01.02.2023 (index.php)</a><br><br>
       <a class="btn btn-success" href="<?php echo $relativeLink.'variableq.php'?>">07.02.2023 (variable.php)</a><br><br>

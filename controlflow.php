@@ -1,4 +1,4 @@
-<?php $title = "08.02.2023 control flow"; include "quang22000Layout/header.php" ?>
+<?php $title = "08.02.2023 control flow"; include "quang22000layout/header.php" ?>
 <h1>08.02.2023 in class exercise</h1>
 <h4>1. Write a script that gets the current month and prints one of the following responses, depending on whether it's August or not:
 It's August, so it's still holiday.
@@ -122,4 +122,4 @@ elseif (stripos($user_agent, 'Safari')==true)
   {echo 'You are using Apple Safari';}
 ?>
 
-<?php include "quang22000Layout/footer.php" ?>
+<?php include "quang22000layout/footer.php" ?>

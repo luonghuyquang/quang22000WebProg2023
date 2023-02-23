@@ -35,5 +35,5 @@ else {
 $conn->close();
 
 
-include '../quang22000Layout/footer.php';
+include '../quang22000layout/footer.php';
 ?>

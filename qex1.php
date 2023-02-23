@@ -1,4 +1,4 @@
-<?php $title = "31.01.2023 in class task"; include "quang22000Layout/header.php" ?>
+<?php $title = "31.01.2023 in class task"; include "quang22000layout/header.php" ?>
 <h1>31.01.2023 (ex1.php)</h1>
 <h3>3.1. Write a simple PHP script to print your information (Name and your groupid).</h3>
 <?php
@@ -47,4 +47,4 @@ echo "
 <h3> 4. Screenshot of the development environment .</h3>
 <img src="images/20230201.Docker.screenshot.png" alt="20230201.Docker.screenshot" style="max-width: 100%;">
 
-<?php include "quang22000Layout/footer.php" ?>
+<?php include "quang22000layout/footer.php" ?>

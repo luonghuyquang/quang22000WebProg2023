@@ -1,4 +1,4 @@
-<?php $title = "09.02.2023 array"; include "quang22000Layout/header.php" ?>
+<?php $title = "09.02.2023 array"; include "quang22000layout/header.php" ?>
 <h1>09.02.2023 in class exercise Array.php</h1>
 <h3>1. Write a php script to display courses as list.</h3>
 <?php
@@ -167,4 +167,4 @@ for ($i=($temp_array_length-5); $i< ($temp_array_length); $i++)
 echo $temp_array[$i].", ";
 }
 ?>
-<?php include "quang22000Layout/footer.php" ?>
+<?php include "quang22000layout/footer.php" ?>

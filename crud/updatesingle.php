@@ -50,5 +50,5 @@ $row = mysqli_fetch_array($result);
 ?>
 
 <?php
-include '../quang22000Layout/footer.php';
+include '../quang22000layout/footer.php';
 ?>
