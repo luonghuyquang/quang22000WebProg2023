@@ -31,8 +31,8 @@ include '../quang22000layout/header.php';
       style="object-fit: contain; width: 100%; height: auto;"><br><br>
     </div>
     <div class="col-md-6">
-    <!--Right side of the reservation page: form -->
-      <div class="row align-items-center">
+          <!--Right side of the reservation page: form -->
+    <div class="row align-items-center">
         <div class="col-md-12">
           <br>
           <h1>Reservation</h1>
@@ -45,11 +45,11 @@ include '../quang22000layout/header.php';
             </div>
             <div class="col-md-6">
               <label for="inputPhoneNumber" class="form-label">Your Phone Number</label>
-              <input class="form-control" type="text" id="inputPhoneNumber" name="phone_nbr" placeholder="Your Phone Number" required>
+              <input class="form-control" type="tel" id="inputPhoneNumber" name="phone_nbr" placeholder="Your Phone Number" required>
             </div>
             <div class="col-md-6">
               <label for="inputEmail" class="form-label">Your Email Address</label>
-              <input class="form-control" type="text" id="inputEmail" name="cust_email" placeholder="Your Email Address" required>
+              <input class="form-control" type="email" id="inputEmail" name="cust_email" placeholder="Your Email Address" required>
             </div>
             <div class="col-md-6">
               <label for="inputDate" class="form-label">Desired Date</label>
